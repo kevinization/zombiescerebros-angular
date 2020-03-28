@@ -1,0 +1,45 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="registro.component.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container register-form">
+            <div class="form">
+                <div class="note">
+                    <p>Registro al Sistema de Zombies y Cerebros</p>
+                </div>
+
+                <div class="form-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" [(ngModel)]="nombre" name="nombre" id="nombre" placeholder="Nombre" value=""/>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" [(ngModel)]="email" name="email" id="email" placeholder="Email" value=""/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="password" class="form-control" [(ngModel)]="password" name="password" id="password" placeholder="Contraseña" value=""/>
+                            </div>
+                            <div class="form-group">
+                                <select name="select" [(ngModel)]="rol" class="form-control">
+                                    <option selected=true disabled >Seleccione</option>
+                                    <option value="Administrador">Administrador</option>
+                                    <option value="Normal">Normal</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-dark btn-lg text-light" id="wea" (click)="guardarUsuario()">Registrarse</a>
+                        <div id="register-link" class="text-right">
+                            <a href="../login/login.component.html" class="text-light"><strong>¿Ya tienes una cuenta? Click aquí</strong></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>    
