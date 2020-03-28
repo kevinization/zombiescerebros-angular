@@ -1,0 +1,30 @@
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: rgb(0, 0, 0);
+    
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+  #wea{
+      color: white;
+  }
+  .note
+{
+  opacity: 0.7;
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #000000, #183770);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+#wea2 {
+  opacity: 1 !important;
+}
