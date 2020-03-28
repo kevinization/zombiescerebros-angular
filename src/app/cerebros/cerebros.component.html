@@ -1,5 +1,5 @@
 <div class="card-body"><h5 class="card-title">Cerebros</h5>
-    <table class="mb-0 table table-dark">
+    <table class="mb-0 table table-light">
         <thead>
         <tr>
             <th>#</th>
@@ -18,12 +18,12 @@
             <td>{{ cerebro.description }}</td>
             <td>{{ cerebro.picture }}</td>
             <td>
-                <button (click)="guardarDatos(cerebro._id,cerebro.flavor,cerebro.iq,cerebro.description,cerebro.picture)" type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target="#modalActualizarCerebro">Editar Zombie <i class="fas fa-edit" title="Editar"></i></button>
-                <button (click)="guardarID(cerebro._id)" type="button" class="btn mr-2 mb-2 btn-danger" data-toggle="modal" data-target="#modalEliminarCerebro">Eliminar Zombie <i class="fas fa-trash" title="Editar"></i></button>
+                <button (click)="guardarDatos(cerebro._id,cerebro.flavor,cerebro.iq,cerebro.description,cerebro.picture)" type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target="#modalActualizarCerebro"><i class="fas fa-edit" title="Editar"></i> Editar</button>
+                <button (click)="guardarID(cerebro._id)" type="button" class="btn mr-2 mb-2 btn-danger" data-toggle="modal" data-target="#modalEliminarCerebro"><i class="fas fa-trash" title="Editar"></i> Eliminar</button>
             </td> 
         </tr>
         </tbody>
     </table>
     <br>
-    <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target="#modalCerebro">Agregar Cerebro</button>
+    <button type="button" class="btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target="#modalCerebro">Agregar cerebro</button>
 </div>

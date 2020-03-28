@@ -1,0 +1,23 @@
+.note
+{
+    opacity: 0.7;
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #8b8a8a, #c511ad);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #303030;
+    margin-bottom: 2%;
+    background-color: rgb(43, 43, 43);
+}
+.form-control{
+    border-radius:0.5rem;
+}
+body{
+    background-image: url(https://image.winudf.com/v2/image/Y29tLk1vYmlsZVN0cmFuZ2VyLmFwcDA0NTBfc2NyZWVuXzRfMTUyNjQ1MzQ2NV8wMzY/screen-4.jpg?fakeurl=1&type=.jpg);
+}
